@@ -93,7 +93,7 @@ public class MentorController {
 		User newUser = new User(email, encryptedPassword, UserRole.ADMIN);
 
 		String savedFileName = fileService.addImage(certificadoFile.getOriginalFilename(), certificadoFile.getBytes(),
-				"C:\\Users\\Felipe Senna\\Documents\\imagensProj");
+				"C:\\Users\\user\\Downloads");
 		mentor.setCertificado(certificadoFile.getBytes());
 		service.salvarMentor(mentor, certificadoFile);
 		this.repository.save(newUser);
