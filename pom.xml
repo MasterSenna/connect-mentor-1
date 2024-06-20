@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -13,6 +15,10 @@
 	<description>Connect Mentor</description>
 	<properties>
 		<java.version>17</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<!-- Your dependencies here -->
@@ -106,6 +112,17 @@
 				</configuration>
 			</plugin>
 			<plugin>
+<<<<<<< HEAD
+=======
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.3.1</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+>>>>>>> 13ff176 (dockerizado)
 				<groupId>org.flywaydb</groupId>
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>9.16.3</version>
@@ -113,7 +130,10 @@
 					<url>jdbc:postgresql://viaduct.proxy.rlwy.net:16303/railway</url>
 					<user>postgres</user>
 					<password>SZMwIlqmUcZSnHEtrwsvVBJqYfZKFZmQ</password>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 13ff176 (dockerizado)
 				</configuration>
 			</plugin>
 		</plugins>
