@@ -42,8 +42,13 @@ background-size: cover; /* Ajusta a imagem para cobrir toda a área */
 .content::before {
     content: "";
     position: absolute;
+<<<<<<< HEAD
     background-color: #222a35;
     width: 40%;
+=======
+    background-color: #141414;
+    width: 45%;
+>>>>>>> 07b2bbd7c8d57232350210c70b6af5fa8440f241
     height: 100%;
     border-top-left-radius: 11px;
     border-bottom-left-radius: 11px;

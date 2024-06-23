@@ -34,10 +34,13 @@ section {
   justify-content: center;
   align-items: center;
   background-image: url(../assets/fundo-encontrar-mentor.png);
+<<<<<<< HEAD
   background-size: cover; /* Ajusta a imagem para cobrir toda a área */
       background-repeat: no-repeat; /* Impede que a imagem se repita */
       background-position: center; /* Centraliza a imagem */
 
+=======
+>>>>>>> 07b2bbd7c8d57232350210c70b6af5fa8440f241
   overflow: hidden;
 }
 
